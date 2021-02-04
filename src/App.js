@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 
 function App() {
   //always returns a single parent element
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="container">
       <Header />
+      <Tasks />
     </div>
   );
 }
