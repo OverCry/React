@@ -7,6 +7,7 @@ function App() {
   //always returns a single parent element
   // basically, encapsulate everything in one <>
   // if you dont want it to be grouped as a div, use an empty angle bracket
+  const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([
     {
       id: 1,
@@ -53,10 +54,11 @@ function App() {
     console.log(id);
   };
 
+  //&& means same as ? without the else
   return (
     <div className="container">
-      <Header />
-      <AddTask onAdd={addTask} />
+      <Header onAdd={()=>setShowAddTask(!showAddTask)} showAdd={showAddTask} />
+      {showAddTask && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
