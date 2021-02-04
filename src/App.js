@@ -1,3 +1,5 @@
+import Header from './components/Header'
+
 function App() {
   //always returns a single parent element
   // basically, encapsulate everything in one <>
@@ -5,11 +7,11 @@ function App() {
   const name = 'Wong'
 
   //can write javascript right into {}
+  //ints and bool uses {} instead of ""
 
   return (
     <div className="container">
-      <h1>Hello From React</h1>
-      <h2>Hello {name}</h2>
+      <Header />
     </div>
   );
 }
