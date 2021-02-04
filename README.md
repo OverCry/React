@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Task Tracker
+
+This repository was done alongside an online tutorial  [https://youtu.be/w7ejDZ8SWv8] (https://youtu.be/w7ejDZ8SWv8)
+
+This was to introduce myself to React and learn more uses of JS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
