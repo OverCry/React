@@ -1,6 +1,6 @@
 # Task Tracker
 
-This repository was done alongside an online tutorial  [https://youtu.be/w7ejDZ8SWv8] (https://youtu.be/w7ejDZ8SWv8)
+This repository was done alongside an online tutorial  [https://youtu.be/w7ejDZ8SWv8](https://youtu.be/w7ejDZ8SWv8)
 
 This was to introduce myself to React and learn more uses of JS
 
